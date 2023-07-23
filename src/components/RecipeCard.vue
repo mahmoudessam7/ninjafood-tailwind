@@ -7,7 +7,7 @@
 <template>
   <div class="card hover:shadow-lg transition ease-out duration-200">
     <img
-      :src="`src/assets/img/${props.image}.jpg`"
+      :src="`/src/assets/img/${props.image}.jpg`"
       alt="stew"
       class="w-full h-32 sm:h-48 object-cover"
     />
